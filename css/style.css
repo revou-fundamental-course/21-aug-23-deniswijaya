@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS index.html */
+.Logo {
+  border-radius: 50%;
+  width: 2cm;
+  height: 2cm;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 16px 24px;
+  background-color: rgb(20, 80, 163);
+}
+
+.btn-group .button {
+  background-color: #4CAF50; /* Green */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: darkcyan;
+}
+
+.slideshow-container {
+  border-bottom: 2px solid black;
+  padding: 16px 24px;
+}
+
+.row {
+  padding: 12px 24px;
+  text-align: center;
+  background-color: rgb(238, 224, 201);
+}
+
+.GambarBulat {
+  border-radius: 50%;
+  width: 5cm;
+  height: 5cm;
+  padding: 5px;
+}
+
+footer {
+  text-align: right;
+  padding: 10px;
+  background-color: rgb(51, 124, 207);
+  color: white;
+}
+
+.title1 {
+  font-size: 65px;
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-left: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title2 {
+  font-size: 65px;
+  text-transform: capitalize;
+  display: flex;
+  padding-left: 95px;
+  background-color: rgb(238, 224, 201);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title3 {
+  font-size: 65px;
+  text-transform: capitalize;
+  display: flex;
+  padding-left: 95px;
+  background-color: rgb(238, 224, 201);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title4 {
+  font-size: 65px;
+  text-transform: capitalize;
+  display: flex;
+  padding-left: 95px;
+  background-color: rgb(214, 123, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.text1 {
+  font-size: 30px;
+  font-style: inherit;
+  font-weight: inherit;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+.profile {
+  padding: 48px 96px;
+  display: flex;
+  font-size: 35px;
+  text-align: justify;
+  background-color: rgb(238, 224, 201);
+}
+
+#Gantinamauser {
+  background-color: yellow; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#Gantinamauser:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.visimisi {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(241, 240, 232);
+  padding: 24px 48px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.location {
+  border-bottom: 2px solid black;
+  font-size: 35px;
+  text-align: center;
+  background-color: rgb(173, 196, 206);
+  height: 200px;
+  flex-direction: column;
+  padding: 12px 24px;
+}
+
+.container {
+  display: grid;
+  border-bottom: 2px solid black;
+  background-color: rgb(214, 123, 255);
+  padding: 10px;
+  padding-left: 100px;
+  font-size: 30px;
+  grid-template-areas: "tanya jawab";
+  grid-template-columns: 600px 700px;
+  
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.title-image {
+  border-bottom: 2px solid black;
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: 4cm 4cm 4cm 4cm 4cm 4cm;
+  background-color: rgb(238, 224, 201);
+  padding: 10px;
+  padding-left: 4.5cm;
+}
+
+.titleimage {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .header-wrapper {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .btn-group {
+    float: none;
+  }
+}
+
+.text-size {
+  width: 250px;
+  height: 30px;
+  position: relative;
+  left: 129px;
+}
+
+.date-size {
+  width: 254px;
+  height: 30px;
+  position: relative;
+  left: 29px;
+}
+
+textarea {
+  width: 250px;
+  height: 100px;
+  position: relative;
+  left: 128px;
+    
+}
+
+.submit-size{
+  width: 475px;
+  height: 30px;
+  background-color: yellow; 
+  color: black; 
+  border: 2px solid #008CBA;
+  cursor: pointer;
+}
+
+.submit-size:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.palette2 {
+  background-color: rgb(173, 196, 206);
+}
